@@ -3,7 +3,7 @@ title: "Home"
 layout: homelay
 excerpt: "ARAM Lab at VinUniversity"
 sitemap: false
-permalink: /
+permalink: 
 ---
 
 ### About the Lab
