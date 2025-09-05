@@ -12,7 +12,7 @@
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
 title: ARAM Lab
-email: quangpham200602@gmail.com
+email: aramlab.vinuni@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   The ARAM (Autonomous Robots and Additive Manufacturing) Research Lab is a pioneering hub at the intersection of robotics and additive manufacturing. 
   Our mission is to advance the field of autonomous systems and revolutionize manufacturing processes through cutting-edge research and innovation. 
@@ -20,8 +20,8 @@ description: > # this means to ignore newlines until "baseurl:"
   large language models (LLMs) to enhance robot capabilities. Additionally, we are at the forefront of additive manufacturing, exploring new materials, 
   optimizing processes, and creating innovative designs that push the boundaries of what is possible. Join us as we shape the future of technology, making smarter, 
   more adaptable robots and groundbreaking manufacturing solutions.
-baseurl: "/ARAM"
-url: "https://quangpham2006.github.io"
+baseurl: ""
+url: "https://aramlabvinuni.github.io/"
 
 include:
   - .htaccess
