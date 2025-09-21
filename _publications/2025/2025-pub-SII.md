@@ -5,7 +5,7 @@ selected:       false
 pub:            "2025 IEEE/SICE International Symposium on System Integration (SII)"
 abstract: >-
   BERT-based nature language command navigation.
-cover:     images/covers/SII.png
+cover:          /images/covers/SII.png
 authors:
   - "Tung T Ngo"
   - "Khoi TN Nguyen"

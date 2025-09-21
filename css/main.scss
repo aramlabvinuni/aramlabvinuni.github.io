@@ -89,12 +89,15 @@ figcaption {
 }
 
 .publication-cover {
-  max-height: 150px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3/2; /* 300x200 ratio like the original */
   object-fit: cover;
+  object-position: center;
 }
 
 .publication-placeholder {
-  min-height: 150px;
+  aspect-ratio: 3/2; /* Match the cover image ratio */
   border: 1px solid #dee2e6;
 }
 
@@ -116,7 +119,7 @@ figcaption {
   
   .publication-cover,
   .publication-placeholder {
-    max-height: 120px;
+    aspect-ratio: 3/2; /* Maintain aspect ratio on mobile */
     margin-bottom: 1rem;
   }
 }

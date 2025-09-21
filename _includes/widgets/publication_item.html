@@ -1,10 +1,10 @@
 {% assign item = include.item %}
 <div class="row publication-item {% unless include.hide_bottom_border %}border-bottom{% endunless %} py-3">
-    <div class="col-md-3 col-xl-2 mb-md-0">
+    <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
         {%- if item.cover -%}
-        <img src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="img-fluid rounded publication-cover">
+        <img src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="w-100 rounded publication-cover">
         {%- else -%}
-        <div class="publication-placeholder bg-light rounded d-flex align-items-center justify-content-center" style="height: 150px;">
+        <div class="publication-placeholder bg-light rounded d-flex align-items-center justify-content-center w-100">
             <i class="fas fa-file-alt fa-3x text-muted"></i>
         </div>
         {%- endif -%}
