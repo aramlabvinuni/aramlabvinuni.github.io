@@ -1,0 +1,29 @@
+# Author information for publications
+# Format: key should match the short name used in publication files
+
+"quangppm":
+  name: "Quang Pham Phuoc Minh" 
+  bold: true
+  url: "https://quangpham2006.github.io/"
+
+"khointn":
+  name: "Khoi Nguyen Tiet Nguyen"
+  url: "https://scholar.google.com/citations?user=a-W86AcAAAAJ"
+
+"lan":
+  name: "Lan Ngo Chi"
+
+"truongdo":
+  name: "Truong Do Tho"
+  url: "https://scholar.google.com/citations?user=CCQ6CH4AAAAJ"
+
+"hyson":
+  name: "Truong-Son Hy"
+  url: "https://scholar.google.com/citations?user=JiKBo6UAAAAJ"
+
+# Additional authors can be added here
+# Use the format:
+# "shortname":
+#   name: "Full Name"
+#   url: "optional_url"
+#   bold: true  # optional, for highlighting main lab members

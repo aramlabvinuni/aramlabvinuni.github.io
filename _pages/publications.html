@@ -6,47 +6,22 @@ sitemap: false
 permalink: /publications/
 ---
 
-<h1>{{page.title}}</h1>
+{% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
 
-<div class="panel-group" id="accordion">
-    <div class="panel panel-default">
-
-    {% for publi in site.data.publications %}
-        <div class="panel-heading">
-            <a data-toggle="collapse" data-parent="#accordion"
-               href="#collapse{{forloop.index}}"
-               style="color: inherit;">
-            <!-- authors -->
-            {% assign authors = "" | split:"/" %}
-            {% for author in publi.author %}
-                {% assign authors = authors | push: author.family %}
-            {% endfor %}
-            {{ authors | array_to_sentence_string }},
-
-            <!-- title with link -->
-            "{{ publi.title }}",
-
-            <!-- container -->
-            <b>{{ publi.container-title }}</b>
-
-            <!-- issued date -->
-            ({{ publi.issued.date-parts | jsonify | slice: 3,4 }}),
-
-            <!-- DOI -->
-            {% if publi.DOI %}
-                <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
-            {% endif %}
-            </a>
-        </div>
-
-        <div id="collapse{{forloop.index}}" class="panel-collapse collapse">
-            <div class="panel-body">
-                <p>{{ publi.abstract }}</p>
-
-                <a class="btn btn-outline-primary" href="https://doi.org/{{publi.DOI}}"
-                   role="button" target="blank">Link</a>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="mb-4">{{page.title}}</h1>
+            
+            {% for year in pubs_by_year %}
+            {% assign num_papers = year.items | size %}
+            <h2 class="mt-4 mb-3" id="year-{{ year.name }}">{{ year.name }}</h2>
+            <div class="publications-year-section">
+                {% for item in year.items %}
+                    {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last %}
+                {% endfor %}
             </div>
+            {% endfor %}
         </div>
-    {% endfor %}
     </div>
 </div>

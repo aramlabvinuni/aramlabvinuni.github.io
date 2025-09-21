@@ -50,3 +50,73 @@ figcaption {
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
+/* Publications */
+
+.publications-year-section {
+  margin-bottom: 2rem;
+}
+
+.publication-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.publication-item:last-child {
+  border-bottom: none !important;
+}
+
+.publication-title {
+  font-weight: 600;
+  color: #333;
+  line-height: 1.3;
+}
+
+.publication-authors {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.publication-venue {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.publication-abstract {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  text-align: justify;
+}
+
+.publication-cover {
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.publication-placeholder {
+  min-height: 150px;
+  border: 1px solid #dee2e6;
+}
+
+.publication-links .btn {
+  margin-right: 0.5rem;
+  margin-bottom: 0.25rem;
+  font-size: 0.8rem;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #dee2e6 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .publication-item {
+    text-align: left;
+  }
+  
+  .publication-cover,
+  .publication-placeholder {
+    max-height: 120px;
+    margin-bottom: 1rem;
+  }
+}
