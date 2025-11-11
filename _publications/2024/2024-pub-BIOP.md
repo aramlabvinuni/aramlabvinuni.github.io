@@ -1,17 +1,18 @@
 ---
-title:          "Triply periodic minimal surfaces lattice structures: Functional graded and hybrid designs for engineering applications"
-date:           2023-09-27 00:01:00 +0800
+title:          "The development of a modular and open-source multi-head 3D bioprinter for fabricating complex structures"
+date:           2024-04-01 00:01:00 +0800
 selected:       true
-pub:            "ACCSCIENCE PUBLISHING - Materials Science in Additive Manufacturing"
+pub:            "Bioprinting - Volume 39, June 2024, e00339"
 abstract: >-
-  In this work, we propose the strategies for designing radial graded sheet-based gyroid lattice and the approach to hybridizing solid-network-based gyroid lattice and primitive lattice. The elastic property of triply periodic minimal surfaces (TPMS) sheet-based gyroid lattice structures was explored. We also conducted numerical analysis to investigate the effect of functionally graded sheet-based gyroid lattices on the implant application, and explored the elastic properties of the uniform gyroid lattice parametrically with different relative densities based on the representative volume element model. Analytical equations based on the Gibson-Ashby model were generated to predict the elastic properties. Compressive tests on the samples fabricated by the Stratasys J750 were conducted to validate the feasibility of applying hybridization of different types of lattices. A comparison between radial hybrid primitive-gyroid and gyroid-primitive lattices revealed that the compressive behavior of gyroid-primitive was strengthened. We also found that the gyroid-primitive lattice could achieve auxetic compressive behavior. In conclusion, the numerical analysis illustrates that the application of the functional graded gyroid lattices can relieve the stress shielding effect as well as protects the bone from damage. The hybridization of different lattices can not only strengthen the mechanical properties of TPMS structures but also create a counter-intuitive deformation response.
-cover:          /images/covers/Cover 2.png
+  Various 3D bioprinting techniques have been introduced and developed to fabricate biomimetic constructs based on biomaterials or cell-laden bioinks to create functionally engineered tissues or organs for tissue engineering applications. However, single-biomaterial printing techniques often fail to replicate the intricate compositions and diversity found in native tissues. Multi-bioinks or multi-biomaterials in bioprinting can be utilized through either a single printhead or multiple separate printheads. However, the cost of commercially available multi-heads for bioprinting is prohibitively high, hindering their application in tissue engineering endeavors. Additionally, each bioink or biomaterial possesses unique printing characteristics that are best suited for specific printing techniques. The current study presents the development of a modular and cost-effective dual-head position bioprinter based on an open-source approach using Marlin firmware. The highlighted features of the 3D bioprinter include the use of various power sources such as compressed air and electricity for the printheads, the integration of a movable printhead mechanism with a wiper arm to prevent collisions with large printed samples during printing, a printhead adapter, as well as nozzle kits designed in a modular form for easy replacement for specific bio-applications. Therefore, despite the presence of two positions to mount the printheads, the custom-designed bioprinter exhibits the capability to flexibly accommodate four distinct printhead modules and three modular nozzle kits to print various biomaterials, such as polycaprolactone (PCL) and its composites with sodium alginate (SA), tricalcium phosphate (TCP) and hydrogel mixtures including SA, gelatin (GL), and k-carrageenan (κ-Carr). Complex tissue scaffolds were successfully fabricated using multi-biomaterials to showcase the versatility of the bioprinter, thereby demonstrating its potential for a wide range of tissue engineering applications.
+cover:          /images/covers/Cover 3.jpg
 authors:
-  - "Tian Lan"
-  - "Chenxi Peng"
-  - "Kate Fox"
+  - "Lan Xuan Phung"
+  - "Tuan Quang Ta"
+  - "Vuong-Hung Pham"
+  - "Minh Thi Hong Nguyen"
   - truongdo
-  - "Phuong Tran"
+  - "Trung Kien Nguyen"
 links:
-  Paper: https://doi.org/10.36922/msam.1753
+  Paper: https://doi.org/10.1016/j.bprint.2024.e00339
 ---
