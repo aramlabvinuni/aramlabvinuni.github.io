@@ -13,5 +13,5 @@ authors:
   - truongdo
   - "Phuong Tran"
 links:
-  Paper: https://doi.org/10.36922/msam.1753
+  Paper: "https://doi.org/10.36922/msam.1753"
 ---

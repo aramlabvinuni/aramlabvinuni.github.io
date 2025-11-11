@@ -12,5 +12,5 @@ authors:
   - truongdo
   - "Tuan Tran"
 links:
-  Paper: https://doi.org/10.1080/17452759.2022.2129396
+  Paper: "https://doi.org/10.1080/17452759.2022.2129396"
 ---

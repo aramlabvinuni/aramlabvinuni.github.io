@@ -14,5 +14,5 @@ authors:
   - truongdo
   - "Trung Kien Nguyen"
 links:
-  Paper: https://doi.org/10.1016/j.bprint.2024.e00339
+  Paper: "https://doi.org/10.1016/j.bprint.2024.e00339"
 ---

@@ -13,5 +13,5 @@ authors:
   - "Kate Fox"
   - "Phuong Tran"
 links:
-  Paper: https://doi.org/10.1080/17452759.2022.2150867
+  Paper: "https://doi.org/10.1080/17452759.2022.2150867"
 ---

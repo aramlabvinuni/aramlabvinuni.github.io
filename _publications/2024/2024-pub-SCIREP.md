@@ -15,5 +15,5 @@ authors:
   - "Patrick Kwon"
   - "Junghoon Yeom"
 links:
-  Paper: https://doi.org/10.1038/s41598-024-65058-5
+  Paper: "https://doi.org/10.1038/s41598-024-65058-5"
 ---
