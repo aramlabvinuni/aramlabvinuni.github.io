@@ -13,6 +13,6 @@ authors:
   - "Sachini Wickramasinghe"
   - truongdo
   - "Dong Ruan"
-link:
+links:
   Paper: https://www.sciencedirect.com/science/article/abs/pii/S0263823124004221
 ---
