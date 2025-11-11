@@ -14,5 +14,5 @@ authors:
   - truongdo
   - "Dong Ruan"
 link:
-  Paper: https://doi.org/10.1016/j.tws.2024.111979
+  Paper: https://www.sciencedirect.com/science/article/abs/pii/S0263823124004221
 ---
