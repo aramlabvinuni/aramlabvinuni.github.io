@@ -4,16 +4,14 @@ date:           2022-12-05 00:01:00 +0800
 selected:       true
 pub:            "Virtual and Physical Prototyping"
 abstract: >-
-  BERT-based nature language command navigation.
+  Concurrent multiscale topology optimisation.
 cover:          /images/covers/Cover 1.jpg
 authors:
-  - "Tung T Ngo"
-  - "Khoi TN Nguyen"
-  - "Duc Q Nguyen"
-  - "Khuyen G Pham"
-  - "Khoi HM Hoang"
-  - quangppm
+  - "Tian Lan"
   - truongdo
+  - "Oraib Al-Ketan"
+  - "Kate Fox"
+  - "Phuong Tran"
 links:
   Paper: https://doi.org/10.1080/17452759.2022.2150867
 ---

@@ -2,7 +2,7 @@
 # Format: key should match the short name used in publication files
 
 "quangppm":
-  name: "Quang Pham Phuoc Minh" 
+  name: "Quang Pham Phuoc Minh"
   bold: true
   url: "https://quangpham2006.github.io/"
 
@@ -15,6 +15,7 @@
 
 "truongdo":
   name: "Truong Do Tho"
+  bold: true
   url: "https://scholar.google.com/citations?user=CCQ6CH4AAAAJ"
 
 "hyson":
